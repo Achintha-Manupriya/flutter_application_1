@@ -16,7 +16,8 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
           title: const Text("Achintha"),
           elevation: 4,
-          backgroundColor: Color.fromARGB(255, 49, 132, 249)),
+          backgroundColor: const Color.fromARGB(255, 49, 132, 249)),
+      
       body: const Center(
         child: Text(
           "Welcome to my first application",
